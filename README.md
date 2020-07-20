@@ -1,1 +1,4 @@
-# Sudoku_Solver
+# Sudoku Solver
+This is an algorithm I've been wanting to code for a while. It is a recursive, backtracking algorithm which uses brute force to test which numbers can go in empty squares of a suduko grid. Once a possible value for a square is found, the square is filled with that number and the solver moves onto another empty square. If a number cannot be placed in an empty square, then the solver will keep it blank and set the previous square and try iterating through the rest of the number in the square it previously. If that square cannot be filled, it will set it as blank, and backtrack to the square prior to that... etc.
+
+Credits to the computerfile youtube tutorial for showing me how to write a recursive function in python. This was the main reason for not completing this project earlier! 
